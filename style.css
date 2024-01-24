@@ -3,18 +3,53 @@ h1 {
     color: #0cb1f2;
 }
 h2 {
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     color: #f28a2e
 
 }
 h3 {
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-style: italic;
     color: #05f2c7
 }
-
+@font-face {
+    font-family: 'Heavitas';
+    src: url('fonts/Heavitas.ttf') format('truetype'),
+      url('fonts/Heavitas.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Bold.ttf') format('truetype'),
+      url('fonts/Poppins-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'),
+      url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Italic.ttf') format('truetype'),
+      url('fonts/Poppins-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-MediumItalic.ttf') format('truetype'),
+      url('fonts/Poppins-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+  }
 
 
 
