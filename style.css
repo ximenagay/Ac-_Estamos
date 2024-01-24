@@ -1,19 +1,42 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #fff8f8;
+}
 h1 { 
-    font-family: "Helvetica Neue", sans-serif;
-    color: #0cb1f2;
+    font-family: "Heavitas", sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 h2 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    color: #f28a2e
-
+    font-style: normal;
 }
 h3 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    font-style: italic;
-    color: #05f2c7
+    font-style: normal;
 }
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
+
+
+
 @font-face {
     font-family: 'Heavitas';
     src: url('fonts/Heavitas.ttf') format('truetype');
