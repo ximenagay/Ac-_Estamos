@@ -2,23 +2,27 @@ body {
     background-color: #fff8f8;
 }
 h1 { 
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Heavitas", sans-serif;
+    font-weight: normal;
+    font-style: normal;
     color: #0cb1f2;
 }
 h2 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
+    font-style: normal;
     color: #f28a2e
 
 }
 h3 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
     color: #05f2c7
 }
 p {
     font-family: "Poppins", sans-serif;
+    font-weight: normal;
     font-style: italic;
     color: #c6f227
 }
