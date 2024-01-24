@@ -1,12 +1,20 @@
 h1 { 
-    font-family: "HEAVITAS";
+    font-family: "Helvetica Neue", sans-serif;
+    color: #0cb1f2;
 }
 h2 {
-    font-family: "poppins bold";
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    color: #f28a2e
+
 }
 h3 {
-    font-family: "poppins extrabold italic";
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #05f2c7
 }
+
 
 
 
