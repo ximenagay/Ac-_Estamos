@@ -19,7 +19,6 @@
     <head>
 
     <body>
-        <header>
      <!-- Navbar -->
      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
         <!-- Container wrapper -->
@@ -54,35 +53,64 @@
           <!-- Collapsible wrapper -->
         </div>
         <!-- Container wrapper -->
+    </div>
       </nav>
-    </header>
+
         <!--Navbar-->
         -------
         <!--Banner de color-->
-        <section>
+        <div class="container">
+            <div class="row justify-content-center">
             <div class="BannerDeColor d-flex justify-content-center d-flex align-items-center">
-            <h1>Inicio de sesión</h1>
+                <h1>Inicio de sesión</h1>
             </div>
-        </section>
+            </div>
+            </div>
         <!--Banner de color-->
         <!--Fomulario de registro-->
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <form>
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form2Example1" class="form-control" />
+              <label class="form-label" for="form2Example1">Correo electrónico</label>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+
+          
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="password" id="form2Example2" class="form-control" />
+              <label class="form-label" for="form2Example2">Contraseña</label>
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+          
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+                  <label class="form-check-label" for="form2Example34"> Recuérdame </label>
+                </div>
+              </div>
+          
+              <div class="col">
+                <!-- Simple link -->
+                <a href="#!">¿Olvidaste tu contraseña?</a>
+              </div>
             </div>
-            <div></div><button type="submit" class="btn btn-primary">Ingresar</button></div>
-            <div><a href="/recuperar_contraseña">¿Olvidaste tu contraseña?</a>
-<a href="/registro">Registrarse</a></div>
-</form>
+          
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Ingresa</button>
+          
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>¿No tienes cuenta?<a href="#!">Únete acá</a></p>
+            </div>
+        </did>
+    </div> 
+        </form>
           <!--Formulario de Registro-->
 
 
