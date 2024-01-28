@@ -3,6 +3,8 @@ html {
     width: 100%;
 }
 body {
+    margin: 0;
+    padding: 0;
     background-color: #fff8f8;
 }
 .BannerDeColor {
@@ -12,6 +14,10 @@ body {
   background-color: #0492D0;
   background-size: cover;
   background-position: center;
+}
+main{
+  margin: 20px;
+  padding: 20px;
 }
 h1 { 
     font-family: "Heavitas", sans-serif;
