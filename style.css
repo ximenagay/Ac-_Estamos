@@ -30,6 +30,9 @@ h2 {
     font-weight: bold;
     font-style: normal;
 }
+.col-md-7 h2 {
+  margin-top: 20px;
+}
 h3 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
