@@ -162,3 +162,45 @@ ul li a {
   margin-bottom: 100px;
   padding: 28px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#infoPersonal {
+  background-color: #c8d300;
+  padding-top: 23px;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 50px;
+}
+
+#formulario {
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-bottom: 100px;
+  padding: 28px;
+}
+
+.verde-pagina-inicio{
+  background-color: #C8D300; 
+  padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px; 
+  margin-top: 5px;
+}
