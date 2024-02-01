@@ -14,56 +14,49 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
     <!--Material Design Bootstrap-->
     <link rel="stylesheet" href="style.css">
+    <script type="module">// Initialization for ES Users
+      import { Collapse, initMDB } from "https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.es.min.js";
+  
+      initMDB({ Collapse });</script>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
-        <!-- Container wrapper -->
-        <div class="container">
-          <!-- Navbar brand -->
-          <a class="navbar-brand me-2" href="#"><img src="images/logo-normal.png" height="48" alt="MDB Logo" loading="lazy" style="margin-top: -1px;"/></a>
-  
-          <!-- Toggle button -->
-          <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-  
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarButtonsExample">
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Empresas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ofertas</a>
-              </li>
-            </ul>
-            <!-- Left links -->
-  
-            <!-- Barra de busqueda -->
-            <div class="d-flex align-items-center">
-                <div class="input-group">
-                    <div class="form-outline" data-mdb-input-init>
-                      <input type="search" id="form1" class="form-control" />
-                      <label class="form-label fuente-poppins-buscador" for="form1">Buscar...</label>
-                    </div>
-                    </div>
-                    <button type="button" class="btn btn-primary" data-mdb-ripple-init>
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </div>
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand me-2" href="#"><img src="images/logo-normal.png" height="48" alt="MDB Logo" loading="lazy" style="margin-top: -1px;"/></a>
 
-              <button type="button" class="btn btn-link px-3 me-2">Iniciar sesión <i class="fa-solid fa-right-to-bracket"></i></button>
-              <button type="button" class="btn btn-success me-3">Unirse <i class="fa-solid fa-pen-to-square"></i></button>
-              <a class="navbar-brand me-2" href="https://www.renca.cl"><img src="images/logo-renca.png" height="48" alt="MDB Logo" loading="lazy" style="margin-top: -1px;"/></a>
-            </div>
+        <!-- Toggle button -->
+        <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Empresas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ofertas</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+
+          <div class="d-flex align-items-center">
+            <button type="button" class="btn btn-link px-3 me-2">Iniciar sesión <i class="fa-solid fa-right-to-bracket"></i></button>
+            <button type="button" class="btn btn-success me-3">Unirse <i class="fa-solid fa-pen-to-square"></i></button>
+            <a class="navbar-brand me-2" href="https://www.renca.cl"><img src="images/logo-renca.png" height="48" alt="MDB Logo" loading="lazy" style="margin-top: -1px;"/></a>
           </div>
-          <!-- Collapsible wrapper -->
         </div>
-        <!-- Container wrapper -->
-    </div>
-      </nav>
-        <!--Navbar-->
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+  </div>
+    </nav>
+      <!--Navbar-->
         <!--Banner de color-->
     </header>
 
