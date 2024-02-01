@@ -70,30 +70,31 @@ ul li a {
   font-family: "Poppins";
 }
 
-.fila-naranja {
-  background-color: #f6990e;
-  padding-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-}
+  .fila-naranja{
+    background-color: #F6990E; 
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 20px;
+  }
 
-.fila-naranja2 {
-  background-color: #f6990e;
-  padding-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  height: 650px;
-}
+  .fila-naranja2{
+    background-color: #F6990E;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 20px;
+    height: 650px;
+  }
 
-.fila-verde {
-  background-color: #c8d300;
-  padding-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-}
+  .fila-verde{
+    background-color: #C8D300;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  
+  }
 
 #columT {
   margin-left: 30px;
