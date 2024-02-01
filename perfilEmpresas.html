@@ -16,7 +16,6 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
   <!--Material Design Bootstrap-->
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -76,15 +75,15 @@
   <main>
     <div class="container m-5">
       <div class="row">
-        <div class="col-md-2" style="background-color:  #C8D300;">
-          <img src="images/cocacola.png" class="img-thumbnail img-fluid m-2" style="width: 100%;" />
+        <div class="col-md-2 text-center">
+          <img src="images/cocacola.png" class="img-thumbnail img-fluid" />
         </div>
-        <div class="col-md-7" style="background-color:  #C8D300;">
+        <div class="col-md-7 mb-3" style="border: 3px solid #C8D300">
           <h2 class="text-center">Nombre de la empresa</h2>
           <p class="text-center">"Mensaje de la empresa hacia los talentos"</p>
         </div>
         <!--Tarjeta de información-->
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="card h-100">
             <div class="card-body">
               <h5 class="card-title">Información</h5>
@@ -97,17 +96,18 @@
             </div>
           </div>
         </div>
-        <!--Tarjeta de información-->
-        <hr class="hr" />
-        <!--Acerca de...-->
-        <div class="col-md-9 shadow-sm" style="padding: 0; margin: 0;">
+      </div>
+      <!--Tarjeta de información-->
+      <!--Acerca de...-->
+      <div class="row">
+        <div class="col-md-9 shadow-sm mb-3" style="padding: 0; margin: 0;">
           <h5 style="background-color: #60BDB1; margin: 0; padding: 10px;">Acerca de...</h5>
           <p style="margin: 0; padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero numquam
             optio quos, in quasi assumenda obcaecati necessitatibus! Harum facere asperiores reprehenderit dignissimos
             ea! Alias suscipit fuga labore sequi velit totam?</p>
         </div>
         <!--Tarjeta de dirección-->
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="card h-100">
             <div class="card-body">
               <h5 class="card-title">Dirección</h5>
@@ -117,113 +117,110 @@
             </div>
           </div>
         </div>
-        <hr class="hr" />
-        <!--Empleos recientes-->
-        <div class="col-md-12 shadow-sm" style="padding: 0; margin: 0;">
-          <h5 style="background-color: #F59F30; margin: 0; padding: 10px;">Empleos publicados recientemente</h5>
-          <div class="card-container d-flex flex-row overflow-auto" style="margin: 10px;">
-            <div class="card" style="width: 18rem; margin: 10px;">
-              <div class="card-body">
-                <h5 class="card-title">Título del trabajo</h5>
-                <p class="card-text">Descripción del trabajo</p>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Remoto</li>
-                  <li class="list-group-item">Publicado: Fecha</li>
-                  <!-- Add more details as needed -->
-                </ul>
-                <a href="#" class="card-link">Más Información</a>
-              </div>
+      </div>
+      <!--Empleos recientes-->
+      <div class="col-md-12 shadow-sm mb-3" style="padding: 0; margin: 0;">
+        <h5 style="background-color: #F59F30; margin: 0; padding: 10px;">Empleos publicados recientemente</h5>
+        <div class="card-container d-flex flex-row overflow-auto" style="margin: 10px;">
+          <div class="card" style="width: 18rem; margin: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Título del trabajo</h5>
+              <p class="card-text">Descripción del trabajo</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tipo: Remoto</li>
+                <li class="list-group-item">Publicado: Fecha</li>
+              </ul>
+              <a href="#" class="card-link">Más Información</a>
             </div>
-            <!--Tarjeta de trabajos 2-->
-            <div class="card" style="width: 18rem; margin: 10px;">
-              <div class="card-body">
-                <h5 class="card-title">Título del trabajo</h5>
-                <p class="card-text">Descripción del trabajo</p>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Remoto</li>
-                  <li class="list-group-item">Publicado: Fecha</li>
-                  <!-- Add more details as needed -->
-                </ul>
-                <a href="#" class="card-link">Más información</a>
-              </div>
-            </div>
-            <!--Tarjeta de trabajos 2-->
-            <!--tarjeta de trabajos 3-->
-            <div class="card" style="width: 18rem; margin: 10px;">
-              <div class="card-body">
-                <h5 class="card-title">Título del trabajo</h5>
-                <p class="card-text">Descripción del trabajo</p>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Remoto</li>
-                  <li class="list-group-item">Publicado: Fecha</li>
-                  <!-- Add more details as needed -->
-                </ul>
-                <a href="#" class="card-link">Más información</a>
-              </div>
-            </div>
-            <!--tarjeta de trabajos 3-->
-            <!--tarjeta de trabajos 4-->
-            <div class="card" style="width: 18rem; margin: 10px;">
-              <div class="card-body">
-                <h5 class="card-title">Título del trabajo</h5>
-                <p class="card-text">Descripción del trabajo</p>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Remoto</li>
-                  <li class="list-group-item">Publicado: Fecha</li>
-                  <!-- Add more details as needed -->
-                </ul>
-                <a href="#" class="card-link">Más información</a>
-              </div>
-            </div>
-            <!--tarejta de trabajos 4-->
           </div>
+          <!--Tarjeta de trabajos 2-->
+          <div class="card" style="width: 18rem; margin: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Título del trabajo</h5>
+              <p class="card-text">Descripción del trabajo</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tipo: Remoto</li>
+                <li class="list-group-item">Publicado: Fecha</li>
+              </ul>
+              <a href="#" class="card-link">Más información</a>
+            </div>
+          </div>
+          <!--Tarjeta de trabajos 2-->
+          <!--tarjeta de trabajos 3-->
+          <div class="card" style="width: 18rem; margin: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Título del trabajo</h5>
+              <p class="card-text">Descripción del trabajo</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tipo: Remoto</li>
+                <li class="list-group-item">Publicado: Fecha</li>
+              </ul>
+              <a href="#" class="card-link">Más información</a>
+            </div>
+          </div>
+          <!--tarjeta de trabajos 3-->
+          <!--tarjeta de trabajos 4-->
+          <div class="card" style="width: 18rem; margin: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Título del trabajo</h5>
+              <p class="card-text">Descripción del trabajo</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tipo: Remoto</li>
+                <li class="list-group-item">Publicado: Fecha</li>
+              </ul>
+              <a href="#" class="card-link">Más información</a>
+            </div>
+          </div>
+          <!--tarejta de trabajos 4-->
         </div>
         <hr class="hr" />
-        <!--Empresas relacionadas-->
-        <div class="col-md-12 shadow-sm" style="padding: 0; margin: 0;">
-          <h5 class="text-white" style="background-color: #0492D0; margin: 0; padding: 10px;">Empresas relacionadas</h5>
-          <div class="card-container d-flex flex-row overflow-auto" style="margin: 10px;">
-            <div class="card" style="width: 18rem; margin-right: 10px;">
-              <img src="" class="card-img-top" alt="Company 1 Logo">
-              <div class="card-body">
-                <h5 class="card-title">Empresa 1</h5>
-                <p class="card-text">Sector: </p>
-                <a href="#" class="card-link">Explorar oportunidades</a>
-              </div>
+        <h6 class="text-center">Ver todos los empleos</h6>
+      </div>
+      <!--Empresas relacionadas-->
+      <div class="col-md-12 shadow-sm mb-3" style="padding: 0; margin: 0;">
+        <h5 class="text-white" style="background-color: #0492D0; margin: 0; padding: 10px;">Empresas relacionadas</h5>
+        <div class="card-container d-flex flex-row overflow-auto" style="margin: 10px;">
+          <div class="card" style="width: 18rem; margin-right: 10px;">
+            <img src="" class="card-img-top" alt="Company 1 Logo">
+            <div class="card-body">
+              <h5 class="card-title">Empresa 1</h5>
+              <p class="card-text">Sector: </p>
+              <a href="#" class="card-link">Explorar oportunidades</a>
             </div>
-            <!--empresa2-->
-            <div class="card" style="width: 18rem; margin-right: 10px;">
-              <img src="" class="card-img-top" alt="Company 2 Logo">
-              <div class="card-body">
-                <h5 class="card-title">Empresa 2</h5>
-                <p class="card-text">Sector: </p>
-                <a href="#" class="card-link">Explorar oportunidades</a>
-              </div>
-            </div>
-            <!--empresa2-->
-            <!--empresa3-->
-            <div class="card" style="width: 18rem; margin-right: 10px;">
-              <img src="" class="card-img-top" alt="Company 2 Logo">
-              <div class="card-body">
-                <h5 class="card-title">Empresa 2</h5>
-                <p class="card-text">Sector: </p>
-                <a href="#" class="card-link">Explorar oportunidades</a>
-              </div>
-            </div>
-            <!--empresa3-->
-            <!--empresa4-->
-            <div class="card" style="width: 18rem; margin-right: 10px;">
-              <img src="" class="card-img-top" alt="Company 2 Logo">
-              <div class="card-body">
-                <h5 class="card-title">Empresa 2</h5>
-                <p class="card-text">Sector: </p>
-                <a href="#" class="card-link">Explorar oportunidades</a>
-              </div>
-            </div>
-            <!--empresa4-->
           </div>
+          <!--empresa2-->
+          <div class="card" style="width: 18rem; margin-right: 10px;">
+            <img src="" class="card-img-top" alt="Company 2 Logo">
+            <div class="card-body">
+              <h5 class="card-title">Empresa 2</h5>
+              <p class="card-text">Sector: </p>
+              <a href="#" class="card-link">Explorar oportunidades</a>
+            </div>
+          </div>
+          <!--empresa2-->
+          <!--empresa3-->
+          <div class="card" style="width: 18rem; margin-right: 10px;">
+            <img src="" class="card-img-top" alt="Company 2 Logo">
+            <div class="card-body">
+              <h5 class="card-title">Empresa 2</h5>
+              <p class="card-text">Sector: </p>
+              <a href="#" class="card-link">Explorar oportunidades</a>
+            </div>
+          </div>
+          <!--empresa3-->
+          <!--empresa4-->
+          <div class="card" style="width: 18rem; margin-right: 10px;">
+            <img src="" class="card-img-top" alt="Company 2 Logo">
+            <div class="card-body">
+              <h5 class="card-title">Empresa 2</h5>
+              <p class="card-text">Sector: </p>
+              <a href="#" class="card-link">Explorar oportunidades</a>
+            </div>
+          </div>
+          <!--empresa4-->
         </div>
       </div>
+    </div>
     </div>
   </main>
   <!--Grid del perfil-->
