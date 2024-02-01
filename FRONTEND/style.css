@@ -23,6 +23,16 @@ h4 {
   font-weight: bold;
   font-style: normal;
 }
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
