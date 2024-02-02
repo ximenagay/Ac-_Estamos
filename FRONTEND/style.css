@@ -255,6 +255,7 @@ ul li a {
     border-bottom: 1px solid #ccc; /* Línea inferior */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     padding: 15px; /* Espaciado interno para resaltar la sombra */
+  }
 #cards {
   margin-left: 150px;
   margin-right: 150px;
@@ -273,3 +274,4 @@ ul li a {
   margin-right: 5px; 
   margin-top: 5px;
 }
+
