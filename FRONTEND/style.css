@@ -249,16 +249,19 @@ ul li a {
     border-bottom: 1px solid #ccc; /* Línea inferior */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     padding: 15px; /* Espaciado interno para resaltar la sombra */
+  }
 #cards {
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
 }
 
-
-
-
-
+#empresaName {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #424242;
+}
 
 .verde-pagina-inicio{
   background-color: #C8D300; 
