@@ -18,27 +18,39 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: white;
 }
 h4 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: #424242;
 }
 h5 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: #424242;
 }
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: #424242;
 }
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: italic;
+  color: #424242;
 }
+.letrafooter {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+}
+
 ul li a {
   color: white;
   font-family: "Poppins";
@@ -81,31 +93,30 @@ ul li a {
   font-family: "Poppins";
 }
 
-  .fila-naranja{
-    background-color: #F6990E; 
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px; 
-    margin-top: 20px;
-  }
+.fila-naranja {
+  background-color: #f6990e;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
 
-  .fila-naranja2{
-    background-color: #F6990E;
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px; 
-    margin-top: 20px;
-    height: 650px;
-  }
+.fila-naranja2 {
+  background-color: #f6990e;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 650px;
+}
 
-  .fila-verde{
-    background-color: #C8D300;
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-  
-  }
+.fila-verde {
+  background-color: #c8d300;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
 
 #columT {
   margin-left: 30px;
@@ -128,4 +139,57 @@ ul li a {
   background-color: #0492d0;
   background-size: cover;
   background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#infoPersonal {
+  background-color: #c8d300;
+  padding-top: 23px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+#formulario {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  padding: 28px;
+}
+
+#cards {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+.verde-pagina-inicio{
+  background-color: #C8D300; 
+  padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px; 
+  margin-top: 5px;
 }
