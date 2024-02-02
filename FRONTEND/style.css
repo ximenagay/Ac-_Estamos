@@ -18,27 +18,39 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: white;
 }
 h4 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: #424242;
 }
 h5 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: #424242;
 }
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
+  color: #424242;
 }
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: italic;
+  color: #424242;
 }
+.letrafooter {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+}
+
 ul li a {
   color: white;
   font-family: "Poppins";
@@ -151,51 +163,28 @@ ul li a {
 #infoPersonal {
   background-color: #c8d300;
   padding-top: 23px;
-  margin-left: 190px;
-  margin-right: 190px;
+  margin-left: 200px;
+  margin-right: 200px;
   margin-top: 50px;
 }
 
 #formulario {
-  margin-left: 190px;
-  margin-right: 190px;
-  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
   padding: 28px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#infoPersonal {
-  background-color: #c8d300;
-  padding-top: 23px;
-  margin-left: 190px;
-  margin-right: 190px;
-  margin-top: 50px;
+#cards {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
 }
 
-#formulario {
-  margin-left: 190px;
-  margin-right: 190px;
-  margin-bottom: 100px;
-  padding: 28px;
-}
+
+
+
+
 
 .verde-pagina-inicio{
   background-color: #C8D300; 
