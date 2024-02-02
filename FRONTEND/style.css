@@ -99,6 +99,7 @@ ul li a {
     margin-right: 20px; 
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 900px;
   }
 
   .fila-naranja2{
@@ -108,7 +109,7 @@ ul li a {
     margin-right: 20px; 
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 650px;
+    height: 900px;
   }
 
   .fila-verde{
@@ -118,7 +119,8 @@ ul li a {
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-  
+    height: 900px;
+    
   }
 
   #columT{
@@ -131,3 +133,36 @@ ul li a {
   }
 
 
+  .card:hover {  
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); 
+  }
+
+  .mi-boton:hover {
+    background-color: #2980b9; 
+    color: #ffffff; 
+  }
+
+  .mi-tarjeta {
+    max-width: 600px;
+    max-height: 90px;
+    overflow: hidden; 
+    
+  }
+
+  
+  .mi-tarjeta-formacion {
+    max-width: 800px;
+    overflow:hidden ;
+     
+    
+  }
+
+  h6 {
+    font-size: 18px; /* Ajusta el tamaño según tus necesidades */
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+  }
+
+  .row-4 {
+    border-bottom: 1px solid #ccc; /* Línea inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 15px; /* Espaciado interno para resaltar la sombra */
