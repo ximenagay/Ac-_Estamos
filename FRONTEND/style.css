@@ -44,7 +44,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: italic;
-  color: white;
+  color: black;
 }
 #empresaName {
   font-family: "Poppins", sans-serif;
@@ -54,7 +54,7 @@ p {
 }
 
 ul li a {
-  color: white;
+  color: black;
   font-family: "Poppins";
   src: url("fonts/Poppins-MediumItalic.ttf") format("truetype");
   font-style: italic;
