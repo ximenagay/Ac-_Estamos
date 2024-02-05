@@ -46,12 +46,7 @@ p {
   font-style: italic;
   color: black;
 }
-#empresaName {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  color: #424242;
-}
+
 
 ul li a {
   color: black;
@@ -143,8 +138,13 @@ ul li a {
   background-size: cover;
   background-position: center;
 }
+#empresaName {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #424242;
+}
 /*XI*/
-
 
 #infoPersonal {
   background-color: #c8d300;
@@ -244,13 +244,6 @@ ul li a {
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
-}
-
-#empresaName {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  color: #424242;
 }
 
 .verde-pagina-inicio{
