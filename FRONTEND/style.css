@@ -46,6 +46,12 @@ p {
   font-style: italic;
   color: white;
 }
+#empresaName {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #424242;
+}
 
 ul li a {
   color: white;
@@ -250,8 +256,7 @@ ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     padding: 15px; /* Espaciado interno para resaltar la sombra */
   }
-
-  #cards {
+#cards {
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
@@ -269,3 +274,4 @@ ul li a {
   margin-right: 5px; 
   margin-top: 5px;
 }
+
