@@ -129,22 +129,7 @@ ul li a {
 .card-body a {
   color: blue;
 }
-/*XI*/
-.BannerDeColor {
-  width: 100%;
-  height: 150px;
-  top: 50px;
-  background-color: #0492d0;
-  background-size: cover;
-  background-position: center;
-}
-#empresaName {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  color: #424242;
-}
-/*XI*/
+
 
 #infoPersonal {
   background-color: #c8d300;
@@ -253,4 +238,19 @@ ul li a {
   margin-right: 5px; 
   margin-top: 5px;
 }
-
+/*XI*/
+.BannerDeColor {
+  width: 100%;
+  height: 150px;
+  top: 50px;
+  background-color: #0492d0;
+  background-size: cover;
+  background-position: center;
+}
+#empresaName {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #424242;
+}
+/*XI*/
