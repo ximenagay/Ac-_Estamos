@@ -238,21 +238,6 @@ h6 {
   margin-right: 150px;
   margin-bottom: 50px;
 }
-
-#empresaName {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  color: #424242;
-}
-
-.verde-pagina-inicio{
-  background-color: #C8D300; 
-  padding-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px; 
-  margin-top: 5px;
-}
 #formulario {
   margin-left: 250px;
   margin-right: 250px;
