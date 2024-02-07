@@ -233,23 +233,30 @@ h6 {
 
 
 /*PANCHO*/
-#cards {
+#cardsPancho {
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
 }
 #formulario {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 250px;
+  margin-right: 250px;
   margin-bottom: 50px;
-  padding: 28px;
+  padding: 32px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 #infoPersonal {
-  background-color: black;
+  background-color: #e5ecf6;
   padding-top: 23px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 250px;
+  margin-right: 250px;
   margin-top: 50px;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px;
+}
+.textoInfo {
+  margin-bottom: 0px;
 }
 /*PANCHO*/
 
