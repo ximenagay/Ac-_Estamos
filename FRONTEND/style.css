@@ -147,116 +147,93 @@ ul li a {
 
 
 
+.fuente-poppins-buscador {
+  font-family: "Poppins";
+}
 
+.fila-naranja {
+  background-color: #f6990e;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 900px;
+}
 
+.fila-naranja2 {
+  background-color: #f6990e;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 900px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-#infoPersonal {
+.fila-verde {
   background-color: #c8d300;
-  padding-top: 23px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 900px;
 }
 
-#formulario {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 50px;
-  padding: 28px;
+#columT {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-  .fuente-poppins-buscador{
-    font-family: 'Poppins';
-  }
+.h2-t {
+  padding-top: 20px;
+}
 
-  .fila-naranja{
-    background-color: #F6990E; 
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 900px;
-  }
+.card:hover {
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
 
-  .fila-naranja2{
-    background-color: #F6990E;
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 900px;
-  }
+.mi-boton:hover {
+  background-color: #2980b9;
+  color: #ffffff;
+}
 
-  .fila-verde{
-    background-color: #C8D300;
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 900px;
-    
-  }
+.mi-tarjeta {
+  max-width: 600px;
+  max-height: 90px;
+  overflow: hidden;
+}
 
-  #columT{
-    margin-left: 30px;
-    margin-right: 30px;
-  }
+.mi-tarjeta-formacion {
+  max-width: 800px;
+  overflow: hidden;
+}
 
-  .h2-t{
-    padding-top: 20px;
-  }
+h6 {
+  font-size: 18px; /* Ajusta el tamaño según tus necesidades */
+  margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+.row-4 {
+  border-bottom: 1px solid #ccc; /* Línea inferior */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 15px; /* Espaciado interno para resaltar la sombra */
+}
 
 
-  .card:hover {  
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); 
-  }
+.verde-pagina-inicio {
+  background-color: #c8d300;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
 
-  .mi-boton:hover {
-    background-color: #2980b9; 
-    color: #ffffff; 
-  }
 
-  .mi-tarjeta {
-    max-width: 600px;
-    max-height: 90px;
-    overflow: hidden; 
-    
-  }
 
-  
-  .mi-tarjeta-formacion {
-    max-width: 800px;
-    overflow:hidden ;
-     
-    
-  }
-
-  h6 {
-    font-size: 18px; /* Ajusta el tamaño según tus necesidades */
-    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
-  }
-
-  .row-4 {
-    border-bottom: 1px solid #ccc; /* Línea inferior */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    padding: 15px; /* Espaciado interno para resaltar la sombra */
-  }
-#cards {
+/*PANCHO*/
+#cardsPancho {
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
@@ -276,4 +253,27 @@ ul li a {
   margin-right: 5px; 
   margin-top: 5px;
 }
+#formulario {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  padding: 32px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#infoPersonal {
+  background-color: #e5ecf6;
+  padding-top: 23px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px;
+}
+.textoInfo {
+  margin-bottom: 0px;
+}
+/*PANCHO*/
+
+
 
