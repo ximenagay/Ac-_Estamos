@@ -78,9 +78,9 @@
   <!--Fomulario de registro-->
   <main class="container m-5">
     <form id="LoginForm">
-      <div class="container col-9 shadow">
+      <div class="container col-8 shadow" style="border-radius: 20px;">
         <div class="row justify-content-center">
-          <h4 class="text-center mb-4" style="background-color: #C8D300; margin: 0; padding: 10px;">Ingresa tus datos
+          <h4 class="text-center mb-4" style="background-color: #E5ECF6; margin: 0; padding: 10px; border-top-left-radius: 20px; border-top-right-radius: 20px;">Ingresa tus datos
             para
             iniciar sesión</h4>
           <div class="col-9">
@@ -115,49 +115,48 @@
             </div>
             <!-- Submit button -->
             <button data-mdb-ripple-init type="button" class="btn btn-block mb-4 just"
-            style="background-color: #F6990E; width: 60%; margin-left: auto; margin-right: auto;"
-            onclick="validarFormulario()">Ingresa</button>
+              style="background-color: #F6990E; width: 60%; margin-left: auto; margin-right: auto;"
+              onclick="validarFormulario()">Ingresa</button>
 
             <!-- Register buttons -->
             <div class="text-center">
-              <p class="mb-8">¿No tienes cuenta?<a href="#!">Únete acá</a></p>
+              <p class="mb-8">¿No tienes cuenta?<a href="#!"> Únete acá</a></p>
             </div>
           </div>
         </div>
     </form>
     </div>
   </main>
-
   <!--Formulario de Registro-->
   <!--Footer-->
   <footer>
-    <div class="container-fluid text-white" style="background-color: #0492D0;">
-      <div class="container text-center"></div>
+    <div class="container-fluid"
+      style="background-color: #E5ECF6; margin: 0px; padding-top: 50px; padding-left: 50px; padding-right: 50px;">
       <div class="row">
-        <div class="col-lg-2 mt-4">
-          <a class="footer-brand me-2" href="https://renca.cl/"><img src="images/escudo-removebg-preview.png"
-              height="100" alt="MDB Logo" loading="lazy" style="margin-top: -1px;" /></a>
+        <div class="col-lg-4 mt-4" style="align-items: center;">
+          <a class="footer-brand" href="https://renca.cl/"><img src="images/logonegro.png" height="70" alt="MDB Logo"
+              loading="lazy" style="margin-top: 30px;" /></a>
         </div>
-        <div class="col-lg-5 mt-4">
-          <h3>Enlaces</h3>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="Instagram.com">Instagram: https://www.instagram.com/muni_renca/</a></li>
-          </ul>
+        <!--logo aca estamos-->
+        <div class="col-lg-4 mt-4" style="align-items: center;">
+          <a class="logoacaestamos" href="index.html"><img src="images/logo-normal.png" height="70" loading="lazy"
+              style="margin-top: 30px;" /></a>
         </div>
-        <div class="col-lg-5 mt-4">
-          <h3>Contáctanos</h3>
-          <p class="letrafooter">Correo electrónico: contacto@renca.cl</p>
-          <p class="letrafooter">Teléfono asistente Virtual de Renca +56 9 5383 4639 (chatbot)</p>
+        <!--Links de contacto-->
+        <div class="col-lg-4 mt-4" style="text-align: right;">
+          <h5>Contacto</h5>
+          <p>RR.SS. <a href="https://www.instagram.com/muni_renca/" style="color: inherit;"><i
+                class="fa-brands fa-instagram"></i></a></p>
+          <p>contacto@renca.cl <i class="fa-solid fa-envelope"></i></p>
+          <p>+56 9 5383 4639 (chatbot) <i class="fa-solid fa-phone"></i></p>
         </div>
       </div>
-      <div class="container">
-        <p class="text-center letrafooter">Derechos de autor
+      <div class="row">
+        <p class="text-center mt-3">Derechos de autor
           (c) 2024 Acá Estamos. Todos los derechos reservados.</p>
       </div>
     </div>
-
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
