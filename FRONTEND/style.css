@@ -41,12 +41,21 @@ p {
   color: #424242;
 }
 
+.letrafooter {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  color: black;
+
+
 #empresaName {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: normal;
   color: #424242;
+
 }
+
 
 ul li a {
   color: black;
@@ -139,7 +148,6 @@ ul li a {
 .card-body a {
   color: blue;
 }
-
 
 .BannerDeColor {
   width: 100%;
@@ -298,6 +306,7 @@ h6 {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
 #infoPersonal {
   background-color: #e5ecf6;
   padding-top: 23px;
@@ -319,4 +328,19 @@ h6 {
 .gradient-custom {
   background: #f3963b;  
 }
-
+/*XI*/
+.BannerDeColor {
+  width: 100%;
+  height: 150px;
+  top: 50px;
+  background-color: #0492d0;
+  background-size: cover;
+  background-position: center;
+}
+#empresaName {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #424242;
+}
+/*XI*/
