@@ -74,69 +74,153 @@
         </div>
     </div>
     <!--Banner de color-->
+    <!--AVATAR-->
+    <div class="container">
+        <h4 id="seleccionaAvatar">Selecciona tu Avatar:</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/avatar1.png" alt="Avatar 1" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-4">
+                <img src="images/avatar2.png" alt="Avatar 2" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-4">
+                <img src="images/avatar3.png" alt="Avatar 3" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            </div>
+        </div>
+        <h5>Avatar Seleccionado:</h5>
+        <div id="avatar-preview" class="row">
+            <div class="col-md-12">
+                <img src="placeholder.jpg" alt="Avatar Preview" class="avatar-option selected-avatar">
+            </div>
+        </div>
+    </div>
+    <!--AVATAR-->
     <!--FORM-->
     <div class="container-fluid">
-        <div class="row shadow" id="infoPersonal">
+        <div class="row" id="infoPersonal">
             <div class="col-12">
                 <h4 class="mb-4 text-center">Información personal</h4>
             </div>
         </div>
         <div class="row shadow" id="formulario">
             <div class="col-6 mb-3">
-                <label for="formGroupExampleInput" class="form-label">
-                    <p>Nombre completo</p>
-                </label>
-                <input type="text" class="form-control" id="formGroupExampleInput">
-            </div>
-            <div class="col-3 mb-3">
-                <label for="formGroupExampleInput2" class="form-label">
-                    <p>Rut</p>
-                </label>
-                <input type="text" class="form-control" id="formGroupExampleInput2">
-            </div>
-            <div class="col-3 mb-3">
-                <label for="formGroupExampleInput2" class="form-label">
-                    <p>Estado civil</p>
-                </label>
-                <input type="text" class="form-control" id="formGroupExampleInput2">
-            </div>
-            <div class="col-3 mb-3">
-                <label for="formGroupExampleInput2" class="form-label">
-                    <p>Fecha de nacimiento</p>
-                </label>
-                <input type="text" class="form-control" id="formGroupExampleInput2">
-            </div>
-            <div class="col-2 mb-3">
-                <label for="formGroupExampleInput2" class="form-label">
-                    <p>Edad</p>
-                </label>
-                <input type="text" class="form-control" id="formGroupExampleInput2">
-            </div>
-            <div class="col-3 mb-3">
-                <label for="formGroupExampleInput2" class="form-label">
-                    <p>Número de contacto</p>
-                </label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="+569XXXXXXXX">
-            </div>
-            <div class="col-4 mb-3">
-                <label for="formGroupExampleInput2" class="form-label">
-                    <p>Correo electrónico</p>
-                </label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ejemplo@gmail.com">
-            </div>
-            <div class="row">
-                <div class="col text-center mt-3">
-                    <button type="button" class="btn btn-primary" style="background-color: #f69906;">Guardar</button>
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="nombres" placeholder="francisco">
+                    <label class="form-label" for="nombres">
+                        <p>Nombres</p>
+                    </label>
                 </div>
             </div>
+            <div class="col-6 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="apellidos" placeholder="salvo">
+                    <label class="form-label" for="apellidos">
+                        <p>Apellidos</p>
+                    </label>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" pattern="\d{1,2}\.\d{3}\.\d{3}-[\dkK]" id="rut"
+                        placeholder="45.234.432-6">
+                    <label class="form-label" for="rut">
+                        <p>Rut</p>
+                    </label>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-floating">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Soltero/a</option>
+                        <option value="1">Casado/a</option>
+                        <option value="2">Viudo/a</option>
+                        <option value="3">Separado/a</option>
+                        <option value="4">Divorciado/a</option>
+                    </select>
+                    <label class="form-label" for="estadoCivil">
+                        <p>Estado civil</p>
+                    </label>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="date" id="nacimiento" placeholder="43">
+                    <label class="form-label" for="nacimiento">
+                        <p>Fecha de nacimiento</p>
+                    </label>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="edad" placeholder="43">
+                    <label class="form-label" for="edad">
+                        <p>Edad</p>
+                    </label>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="tel" id="numeroContacto" placeholder="+56947294628">
+                    <label class="form-label" for="numeroContacto">
+                        <p>Número de contacto</p>
+                    </label>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="email" id="email" placeholder="Correo electrónico">
+                    <label class="form-label" for="email">
+                        <P>Correo electrónico</P>
+                    </label>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="profesion" placeholder="obrero">
+                    <label class="form-label" for="profesion">
+                        <p>Ingresa tu profesión u oficio</p>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" id="textInteres">
+                    <h4 class="text-center">Elige tu área de interés</h4>
+                </div>
+                <div class="col-12">
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Elige tu área de interés principal</option>
+                        <option value="1">Educación</option>
+                        <option value="2">Salud</option>
+                        <option value="3">Deporte</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Elige tu área de interés opcional</option>
+                        <option value="1">Educación</option>
+                        <option value="2">Salud</option>
+                        <option value="3">Deporte</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Elige tu área de interés opcional</option>
+                        <option value="1">Educación</option>
+                        <option value="2">Salud</option>
+                        <option value="3">Deporte</option>
+                    </select>
+                </div>
+            </div>
+            
         </div>
     </div>
     <!--FORM-->
     <!--CARDS-->
     <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 g-4" id="cards">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="cardsPancho">
             <div class="col">
-                <div class="card h-100 shadow">
+                <div class="card h-100 shadow" style="border-radius: 20px;">
                     <img src="images/imgEstudios.png"
                         class="card-img-top w-50 h-50 mx-auto text-center d-block img-fluid">
                     <div class="card-body">
@@ -150,9 +234,9 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 shadow">
+                <div class="card h-100 shadow" style="border-radius: 20px;">
                     <img src="images/imgAntecedentes.png"
-                        class="card-img-top w-50 h-50 mx-auto text-center d-block img-fluid">
+                        class="card-img-top w-50 h-50 mx-auto text-center d-block img-fluid" alt="antecedentes">
                     <div class="card-body">
                         <h4 class="card-title text-center">SUBE AQUÍ</h4>
                         <p class="card-text text-center">Sube aquí tu certificado de antecedentes, recuerda que este
@@ -165,7 +249,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 shadow">
+                <div class="card h-100 shadow" style="border-radius: 20px;">
                     <img src="images/imgCurriculum.png"
                         class="card-img-top w-50 h-50 mx-auto text-center d-block img-fluid">
                     <div class="card-body">
@@ -183,52 +267,38 @@
     <!--CARDS-->
     <!--Footer-->
     <footer>
-        <div class="container-fluid text-white" style="background-color: #0492D0;">
-            <div class="container text-center"></div>
+        <div class="container-fluid"
+            style="background-color: #E5ECF6; margin: 0px; padding-top: 50px; padding-left: 50px; padding-right: 50px;">
             <div class="row">
-                <div class="col-lg-2 mt-4">
-                    <a class="footer-brand me-2" href="https://renca.cl/"><img src="images/escudo-removebg-preview.png"
-                            height="100" alt="MDB Logo" loading="lazy" style="margin-top: -1px;" /></a>
+                <div class="col-lg-4 mt-4" style="align-items: center;">
+                    <a class="footer-brand" href="https://renca.cl/"><img src="images/logonegro.png" height="70"
+                            alt="MDB Logo" loading="lazy" style="margin-top: 30px;" /></a>
                 </div>
-                <div class="col-lg-5 mt-4">
-                    <h3>Enlaces</h3>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="#">Acerca de</a></li>
-                        <li><a href="Instagram.com">Instagram: https://www.instagram.com/muni_renca/</a></li>
-                    </ul>
+                <!--logo aca estamos-->
+                <div class="col-lg-4 mt-4" style="align-items: center;">
+                    <a class="logoacaestamos" href="index.html"><img src="images/logo-normal.png" height="70"
+                            loading="lazy" style="margin-top: 30px;" /></a>
                 </div>
-                <div class="col-lg-5 mt-4">
-                    <h3>Contáctanos</h3>
-                    <p class="letrafooter">Correo electrónico: contacto@renca.cl</p>
-                    <p class="letrafooter">Teléfono asistente Virtual de Renca +56 9 5383 4639 (chatbot)</p>
+                <!--Links de contacto-->
+                <div class="col-lg-4 mt-4" style="text-align: right;">
+                    <h5>Contacto</h5>
+                    <p>RR.SS. <a href="https://www.instagram.com/muni_renca/" style="color: inherit;"><i
+                                class="fa-brands fa-instagram"></i></a></p>
+                    <p>contacto@renca.cl <i class="fa-solid fa-envelope"></i></p>
+                    <p>+56 9 5383 4639 (chatbot) <i class="fa-solid fa-phone"></i></p>
                 </div>
             </div>
-            <div class="container">
-                <p class="text-center letrafooter">Derechos de autor
+            <div class="row">
+                <p class="text-center mt-3">Derechos de autor
                     (c) 2024 Acá Estamos. Todos los derechos reservados.</p>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-        <script src="javascript/enrolamientoTalent.js"></script>
+    </footer>
+    <!--Footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="javascript/enrolamientoTalent.js"></script>
 </body>
 
 </html>
