@@ -76,19 +76,19 @@
     <!--Banner de color-->
     <!--AVATAR-->
     <div class="container">
-        <h4>Selecciona tu Avatar</h4>
+        <h4 id="seleccionaAvatar">Selecciona tu Avatar:</h4>
         <div class="row">
             <div class="col-md-4">
-                <img src="avatar1.jpg" alt="Avatar 1" class="avatar-option" onclick="selectAvatar(this)">
+                <img src="images/avatar1.png" alt="Avatar 1" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
             </div>
             <div class="col-md-4">
-                <img src="avatar2.jpg" alt="Avatar 2" class="avatar-option" onclick="selectAvatar(this)">
+                <img src="images/avatar2.png" alt="Avatar 2" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
             </div>
             <div class="col-md-4">
-                <img src="avatar3.jpg" alt="Avatar 3" class="avatar-option" onclick="selectAvatar(this)">
+                <img src="images/avatar3.png" alt="Avatar 3" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
             </div>
         </div>
-        <h4>Avatar Seleccionado:</h4>
+        <h5>Avatar Seleccionado:</h5>
         <div id="avatar-preview" class="row">
             <div class="col-md-12">
                 <img src="placeholder.jpg" alt="Avatar Preview" class="avatar-option selected-avatar">
@@ -175,47 +175,47 @@
                     </label>
                 </div>
             </div>
+            <div class="col-12 mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="profesion" placeholder="obrero">
+                    <label class="form-label" for="profesion">
+                        <p>Ingresa tu profesión u oficio</p>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" id="textInteres">
+                    <h4 class="text-center">Elige tu área de interés</h4>
+                </div>
+                <div class="col-12">
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Elige tu área de interés principal</option>
+                        <option value="1">Educación</option>
+                        <option value="2">Salud</option>
+                        <option value="3">Deporte</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Elige tu área de interés opcional</option>
+                        <option value="1">Educación</option>
+                        <option value="2">Salud</option>
+                        <option value="3">Deporte</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                        <option selected>Elige tu área de interés opcional</option>
+                        <option value="1">Educación</option>
+                        <option value="2">Salud</option>
+                        <option value="3">Deporte</option>
+                    </select>
+                </div>
+            </div>
+            
         </div>
     </div>
     <!--FORM-->
-    <!--AREA DE INTERES-->
-    <div class="container-fluid">
-        <div class="row" id="areaInteres">
-            <div class="col-12">
-                <h4 class="text-center">Elige tu área de interés</h4>
-            </div>
-            <div class="col-12">
-                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
-                    <option selected>Área de interés principal</option>
-                    <option value="1">Educación</option>
-                    <option value="2">Salud</option>
-                    <option value="3">Deporte</option>
-                </select>
-            </div>
-            <div class="col-12">
-                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
-                    <option selected>Área de interés opcional</option>
-                    <option value="1">Educación</option>
-                    <option value="2">Salud</option>
-                    <option value="3">Deporte</option>
-                </select>
-            </div>
-            <div class="col-12">
-                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
-                    <option selected>Área de interés opcional</option>
-                    <option value="1">Educación</option>
-                    <option value="2">Salud</option>
-                    <option value="3">Deporte</option>
-                </select>
-            </div>
-            <div class="col-12">
-                <h5 class="text-center">Ingresa tu profesión u oficio</h5>
-                <input class="form-control form-control-lg" type="text" placeholder="Profesor de educación fisica"
-                    aria-label=".form-control-lg example">
-            </div>
-        </div>
-    </div>
-    <!--AREA DE INTERES-->
     <!--CARDS-->
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-md-3 g-4" id="cardsPancho">
