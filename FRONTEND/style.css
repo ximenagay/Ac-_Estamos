@@ -86,6 +86,8 @@ ul li a {
   font-weight: normal;
 }
 
+
+/*Kath*/
 .fuente-poppins-buscador {
   font-family: "Poppins";
 }
@@ -96,6 +98,7 @@ ul li a {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
+  border-radius: 15px;
 }
 
 .fila-naranja2 {
@@ -105,6 +108,7 @@ ul li a {
   margin-right: 20px;
   margin-top: 20px;
   height: 650px;
+  border-radius: 15px;
 }
 
 .fila-verde {
@@ -113,6 +117,7 @@ ul li a {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
+  border-radius: 15px;
 }
 
 #columT {
@@ -120,15 +125,22 @@ ul li a {
   margin-right: 30px;
 }
 
-.h2-t {
-  padding-top: 20px;
-}
+
 .col-md-7 h2 {
   margin-top: 20px;
 }
+/*Kath*/
+
+
+.titulosFilasTalentos {
+  padding-top: 20px;
+}
+
 .card-body a {
   color: blue;
 }
+
+
 .BannerDeColor {
   width: 100%;
   height: 150px;
@@ -137,6 +149,37 @@ ul li a {
   background-size: cover;
   background-position: center;
 }
+
+
+
+/*Kath*/
+.BannerDeColorPerfil {
+  width: 100%;
+  height: 150px;
+  top: 0px;
+  background-color: #0492d0;
+  background-size: 90px;
+  background-position: center;
+  margin-bottom: 75px;
+}
+
+.btn-interes {
+  background-color: #769e33; 
+  color: #ffffff; 
+}
+
+.textoInteresTalento {
+  padding: 5px;
+  width: 180px;
+  border-radius: 15px;
+  background-color: #769e33;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/*Kath*/
+
+
+
 
 
 
