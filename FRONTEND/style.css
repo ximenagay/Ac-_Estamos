@@ -228,30 +228,48 @@ h6 {
 
 
 /*PANCHO*/
+#seleccionaAvatar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.avatar-option {
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.selected-avatar {
+  border: 3px solid #007bff;
+}
 #cardsPancho {
   margin-left: 150px;
   margin-right: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 #formulario {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-bottom: 50px;
-  padding: 32px;
+  padding: 50px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 #infoPersonal {
   background-color: #e5ecf6;
   padding-top: 23px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-top: 50px;
   border-top-left-radius: 20px ;
   border-top-right-radius: 20px;
 }
 .textoInfo {
   margin-bottom: 0px;
+}
+#textInteres {
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 /*PANCHO*/
 
