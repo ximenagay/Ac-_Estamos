@@ -354,27 +354,27 @@ h6 {
 }
 
 .banner-text-container-acerca {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+
 }
 
 .banner-title-main-acerca {
-  font-size: 5vw;
+  font-size: 4vw;
   margin: 0;
   color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #0492d0;
 }
 
 .banner-title-sub-acerca {
   font-size: 5vw;
   margin: 0;
   color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #0492d0;
 }
 #texto-mision {
 margin: 50px;
@@ -384,6 +384,39 @@ border-radius: 20px;
 }
 #cartasInfo {
   margin: 0px;
-  padding: 15px;
+  padding: 0px;
 }
+#cartainfo1 {
+  margin: 5px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container-empresa {
+  position: relative;
+  text-align: center;
+}
+.banner-image-empresa {
+  width: 100%;
+  height: auto;
+}
+
+.banner-text-container-empresa {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner-title-main-empresa {
+  font-size: 4vw;
+  margin: 0;
+  color: white;
+}
+
 /*XI*/
