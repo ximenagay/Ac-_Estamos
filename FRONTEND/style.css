@@ -1,3 +1,4 @@
+
 h1 {
   font-family: "Heavitas", sans-serif;
   font-weight: normal;
@@ -161,7 +162,9 @@ ul li a {
 
 
 
-/*Kath*/
+
+/* ----------------------------kath -------------------------------------------------------*/
+
 .BannerDeColorPerfil {
   width: 100%;
   height: 150px;
@@ -185,13 +188,6 @@ ul li a {
   color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-/*Kath*/
-
-
-
-
-
-
 
 
 .fuente-poppins-buscador {
@@ -268,6 +264,7 @@ h6 {
   padding: 15px; /* Espaciado interno para resaltar la sombra */
 }
 
+/* ----------------------------kath -------------------------------------------------------*/
 
 .verde-pagina-inicio {
   background-color: #c8d300;
@@ -345,3 +342,115 @@ h6 {
   color: #424242;
 }
 /*XI*/
+
+
+
+
+
+  /* ----------------------------kath -------------------------------------------------------*/
+
+
+  /*banner principal pagina VISTA EMPRESAS*/
+  .BannerDeColorEmpresa {
+    width: 100%;
+    top: 50px;
+    height: 400px; 
+    margin-bottom: 35px;
+    /*background-color: #0492d0;*/
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/BannerEmpresa2.jpeg');
+
+  }
+
+
+  
+  /*texto "EMPRESAS ASOCIADAS*/
+  .textoEmpresa {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+
+  /*texto "NUESTRAS EMPRESAS"*/
+  .textoEmpresa2 {
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+  }
+
+
+  /*Boton "ver más" de tarjetas de empresas*/
+  .verMasBoton{
+    background-color: #f3963b;
+    margin-top: 10%;
+    
+  }
+
+    /* Cambiar el color del botón al pasarle el mouse*/
+    .verMasBoton:hover {
+      background-color: #f3963b; 
+   
+    }
+    
+
+
+  /*Responsivo VISTA EMPRESA */
+  @media screen and (max-width: 600px) {
+    .contenedorEmpresas {
+     background-color: #c8d300;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      
+    }
+
+     
+      
+    }
+    
+    /*Responsivo VISTA EMPRESA */
+    @media screen and (max-width: 600px) {
+      .card-body{
+        display: flex;
+        flex-direction: column;
+       
+        
+      }
+        
+      }
+      
+   
+ /*Contenedor principal VISTA DE EMPRESAS*/
+  .contenedorEmpresas {
+  margin-bottom: 5%;
+  
+  }
+
+
+   /* Imagenes de empresas de la VISTA EMPRESAS*/
+  .card-imgEmpresa{
+    width: 80%;
+    height: 80%;
+    padding-left: 20%;
+    padding-top: 5%;
+  }
+
+ 
+
+ /* .columnaNavEmpresa{
+    background-color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc 
+  
+  }
+  */
+
+
+/* ----------------------------kath -------------------------------------------------------*/
+
+
+
+
