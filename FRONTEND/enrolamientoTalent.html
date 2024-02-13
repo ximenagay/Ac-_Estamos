@@ -65,27 +65,64 @@
         </div>
     </nav>
     <!--Navbar-->
-    <!--Banner de color-->
-    <div class="BannerDeColor d-flex justify-content-center align-items-center">
-        <div class="container">
-            <div class="row justify-content-center">
-                <h1 class="text-center">ENRÓLATE COMO TALENTO</h1>
-            </div>
+    <!--BANNER-->
+    <div class="container-fluid">
+        <div id="bannerTalent">
+            <img src="images/bannerTalent.png" class="img-fluid" alt="banner">
         </div>
     </div>
-    <!--Banner de color-->
+    <!--BANNER-->
     <!--AVATAR-->
     <div class="container">
         <h4 id="seleccionaAvatar">Selecciona tu Avatar:</h4>
         <div class="row">
-            <div class="col-md-4">
-                <img src="images/avatar1.png" alt="Avatar 1" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar1.png" alt="Avatar 1" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
             </div>
-            <div class="col-md-4">
-                <img src="images/avatar2.png" alt="Avatar 2" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar2.png" alt="Avatar 2" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
             </div>
-            <div class="col-md-4">
-                <img src="images/avatar3.png" alt="Avatar 3" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar3.png" alt="Avatar 3" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar4.png" alt="Avatar 4" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar5.png" alt="Avatar 5" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar6.png" alt="Avatar 6" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar1.png" alt="Avatar 7" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar2.png" alt="Avatar 8" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar3.png" alt="Avatar 9" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar4.png" alt="Avatar 10" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar5.png" alt="Avatar 11" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar6.png" alt="Avatar 12" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
             </div>
         </div>
         <h5>Avatar Seleccionado:</h5>
@@ -98,12 +135,10 @@
     <!--AVATAR-->
     <!--FORM-->
     <div class="container-fluid">
-        <div class="row" id="infoPersonal">
-            <div class="col-12">
-                <h4 class="mb-4 text-center">Información personal</h4>
-            </div>
-        </div>
         <div class="row shadow" id="formulario">
+            <div class="col-12">
+                <h3 class="text-center" id="infoPersonal">Información personal</h3>
+            </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
                     <input class="form-control" type="text" id="nombres" placeholder="francisco">
@@ -184,8 +219,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" id="textInteres">
-                    <h4 class="text-center">Elige tu área de interés</h4>
+                <div class="col-12">
+                    <h3 class="text-center" id="textInteres">Elige tu área de interés</h3>
                 </div>
                 <div class="col-12">
                     <select class="form-select form-select-lg mb-3" aria-label="Large select example">
@@ -212,7 +247,7 @@
                     </select>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!--FORM-->
@@ -229,7 +264,11 @@
                             certificación.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="button" class="btn btn-primary" style="background-color: #f69906;">Subir</button>
+                        <div class="form-floating">
+                            <input class="form-control" type="file" id="certificadoEstudio" placeholder="francisco">
+                            <label class="form-label" for="certificadoEstudio">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -244,7 +283,11 @@
                             actualizado.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="button" class="btn btn-primary" style="background-color: #f69906;">Subir</button>
+                        <div class="form-floating">
+                            <input class="form-control" type="file" id="certificadoAntecedente" placeholder="francisco">
+                            <label class="form-label" for="certificadoAntecedente">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -258,7 +301,11 @@
                             WORD.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="button" class="btn btn-primary" style="background-color: #f69906;">Subir</button>
+                        <div class="form-floating">
+                            <input class="form-control" type="file" id="curriculum">
+                            <label class="form-label" for="curriculum">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
