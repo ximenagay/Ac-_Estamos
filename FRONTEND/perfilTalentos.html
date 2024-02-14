@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Talentos</title>
@@ -18,12 +17,14 @@
     <link rel="stylesheet" href="style.css">
     <script type="module">// Initialization for ES Users
       import { Collapse, initMDB } from "https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.es.min.js";
-  
+      
       initMDB({ Collapse });</script>
+       
 </head>
-<body>
+<body class="PerfilTalentos">
+ <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" >
       <!-- Container wrapper -->
       <div class="container">
         <!-- Navbar brand -->
@@ -37,321 +38,350 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarButtonsExample">
           <!-- Left links -->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav botones me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#">Empresas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ofertas</a>
+              <a class="nav-link" href="#">Talentos</a>
             </li>
           </ul>
           <!-- Left links -->
           <!-- Barra de busqueda -->
-          <div class="d-flex align-items-center">
-            <div class="input-group">
-                <div class="form-outline" data-mdb-input-init>
-                  <input type="search" id="form1" class="form-control" />
-                  <label class="form-label fuente-poppins-buscador" for="form1">Buscar...</label>
-                </div>
-                </div>
-                <button type="button" class="btn btn-primary" data-mdb-ripple-init>
-                  <i class="fas fa-search"></i>
-                </button>
+          <div class="d-flex barra align-items-center">
+            <div class="input-group d-md-flex d-none">
+              <div class="form-outline" data-mdb-input-init>
+                <input type="search" id="form1" class="form-control" />
+                <label class="form-label fuente-poppins-buscador" for="form1">Buscar...</label>
               </div>
-          <div class="d-flex align-items-center">
+            </div>
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <!--  -->
+
+          <div class="d-flex botones align-items-center">
             <button type="button" class="btn btn-link px-3 me-2">Iniciar sesión <i class="fa-solid fa-right-to-bracket"></i></button>
             <button type="button" class="btn btn-success me-3">Unirse <i class="fa-solid fa-pen-to-square"></i></button>
-            <a class="navbar-brand me-2" href="https://www.renca.cl"><img src="images/logo-renca.png" height="48" alt="MDB Logo" loading="lazy" style="margin-top: -1px;"/></a>
+            <a class="navbar-brand cerro me-2" href="https://www.renca.cl"><img src="images/logo-renca.png" height="48" alt="MDB Logo" loading="lazy" style="margin-top: -1px;"/></a>
           </div>
         </div>
         <!-- Collapsible wrapper -->
       </div>
       <!-- Container wrapper -->
-  </div>
+   </div>
     </nav>
       <!--Navbar-->
         <!--Banner de color-->
-    </header>
-
-    <div class="BannerDeColorPerfil d-flex justify-content-center align-items-center position-relative ">
-      <div class="container">
-          <div class="row align-items-end">
-              <div class="col-md-1 position-absolute bottom-0 start-50 translate-middle-x">
-                  <div class="d-flex justify-content-center">
-                      <img src="images/Hombre_avatar3.png" class="img-thumbnail2 img-responsive" style="width: 100%; height: 170px; width: 195px; margin-bottom: -75px; border-radius: 50%; border: 5px solid white;" />
-                  </div>
-              </div>
-              <div class="col-md-8">
-                  <h3 class="text-white">Nombre talento</h3>
-                  <h4 class="text-white">Profesión u oficio</h4>
-              </div>
-              <div class="col-md-4 d-flex justify-content-end">
-                  <button id="estadoBoton" type="button" class="btn btn-success btn-sm me-3" style="background-color: #F6990E; height: 35px;">
-                      EN BUSQUEDA ACTIVA: NO <i class="fas fa-caret-down ml-2"></i>
-                  </button>
-              </div>
-          </div>
-      </div>
-  </div>
- 
+ </header>
+ <!-------------------------Banner------------------------------------->
+ <div class="BannerDeColorPerfil d-flex justify-content-center align-items-center position-relative" >
+    <div class="container perfil">
+          
+                 <div class="d-flex imagenperfil justify-content-center position-absolute bottom-0 start-50 translate-middle-x">
+                    <img src="images/Hombre_avatar3.png" class="img-thumbnail2" style="width: 180px; margin-bottom: -75px; border-radius: 50%; border: 5px solid rgb(218, 220, 226);" />
+                 </div>
+          
+    <div class="col-6 textos">
+                <h3 class="text-white">Nombre talento</h3>
+                <h4 class="text-white">Profesión u oficio</h4>
+    </div>
+    <div class="col-md-8 boton d-flex justify-content-end "style="width: 100%;">
+                <button id="estadoBoton" type="button" class="btn busquedactiva btn-success btn-sm me-3" style="background-color: #F6990E; height: 35px;">
+                    EN BUSQUEDA ACTIVA: NO <i class="fas fa-caret-down ml-2"></i>
+                </button>
+   </div>
+    </div>
+ </div>
+<!---------------------------End--------------------------------------->
 
 
-  
-  
-
- <div class="container-fluid d-flex justify-content-center" style="margin-top: 10px;">
-    <!-- INFORMACIN PERSONAL FILA -->
-    <div class="row-4 fila-naranja shadow">
-      <div class="col text-center" id="columT">
-        <!-- Contenido de la primera columna -->
-        <h4 class="titulosFilasTalentos">Acceso a certificados</h4>
-        <!-- tarjeta 1  FILA 1-->
-        <p><div class="card" style="max-width: 320px;">
-          <div class="card-body" style="background-color: white; border-radius: 10px; height: 255px; padding-top: 0px;">
+<!-------------------------columnas------------------------------------>
+<div class="container columnasPT"style="margin-bottom: 25px;">
+  <div class="row filasPT">
+    <div class="col-md-4 colmunaF1">
+      <div class="contenedorF1 text-center">
+        <h4 class="titulosFilasTalentos text-center">Acceso a certificados</h4>
+        <!-- Tarjetas para el primer contenedor -->
+        <div class="card cardF1"> 
+           <!-- Contenido de la tarjeta 1 -->
+           <div class="card-body ">
             <p class="card-text" style="max-height: 150px; overflow: hidden;">
               <h6>Certificado de Antecedentes</h6>
               <hr> 
               Certificados de Antecedentes al Instante: Una fuente confiable para evaluar la calidad de nuestros miembros de manera rápida.
             </p>
-            <button type="button" class="btn" style="padding: 12px 60px; color: white; background-color: #F6990E; font-size: 13px;" data-mdb-ripple-init>VIZUALIZAR<i class="far fa-eye ms-2"></i></button>
+            <button type="button" class="btn" style="padding: 12px 60px; color: white; background-color: #F6990E; font-size: 13px;" >VIZUALIZAR<i class="far fa-eye ms-2"></i></button>
           </div>
-        </div></p>
-         <!---------------------------f---------------------------------------->
-         
-         <!-- tarjeta 2  FILA 1-->
-        <p>
-          <div class="card" style="max-width: 320px;">
-            <div class="card-body" style="background-color: white; border-radius: 10px; height: 255px; padding-top: 0px;">
+        </div>
+        <div class="card cardF1">
+           <!-- Contenido de la tarjeta 2 -->
+            <div class="card-body" >
               <p class="card-text" style="max-height: 150px; overflow: hidden;">
                 <h6>Curriculum Vitae</h6>
                 <hr>
                 Bienvenido a "Ver CV": Detalles sobre habilidades y experiencia de nuestros talentosos miembros para empresas
               </p>
-              <button type="button" class="btn" style="padding: 12px 60px; color: white; background-color: #F6990E; font-size: 13px;" data-mdb-ripple-init>VIZUALIZAR<i class="far fa-eye ms-2"></i></button>
-            </div>
-          </div>
-        </p>
-         <!---------------------------f---------------------------------------->
-         
-         <!-- tarjeta 3 FILA 1-->
-        <p><div class="card" style="max-width: 320px;">
-          <div class="card-body" style="background-color: white; border-radius: 10px; height: 255px; padding-top: 0px;">
+              <button type="button" class="btn" style="padding: 12px 60px; color: white; background-color: #F6990E; font-size: 13px;">VIZUALIZAR<i class="far fa-eye ms-2"></i></button>
+             </div>
+        </div>
+        <div class="card cardF1">
+          <div class="card-body">
+            <!-- Contenido de la tarjeta 3 -->
             <p class="card-text" style="max-height: 150px; overflow: hidden;">
               <h6>Certificados</h6>
               <hr>
               Bienvenido a "Ver Certificados": Detalles sobre habilidades, experiencia y certificados de estudios.
             </p>
-            <button type="button" class="btn" style="padding: 12px 60px; color: white; background-color: #F6990E; font-size: 13px;" data-mdb-ripple-init>VIZUALIZAR<i class="far fa-eye ms-2"></i></button>
+            <button type="button" class="btn" style="padding: 12px 60px; color: white; background-color: #F6990E; font-size: 13px;">VIZUALIZAR<i class="far fa-eye ms-2"></i></button>
+           
           </div>
         </div>
-        </p>
-        <!---------------------------f---------------------------------------->
-      
-     <!-- FORMACION ACADEMICA FILA -->
-    </div>
-    </div>
-    <div class="row-4 fila-verde shadow">
-      <div class="col text-center" id="columT">
-        <!-- Contenido de la segunda columna -->
-        <h4 class="titulosFilasTalentos">Me interesa: </h4>
-
-        <!-- tarjeta 1 FILA 2-->
-        <div class="card" style="max-width: 320px;">
-          <div class="card-body" style="background-color: white; border-radius: 10px; height: 255px; padding-top: 0px;">
-            <p class="card-text" style="max-height: 150px; overflow: hidden;">
-              <h6>Areas de interés</h6>
-              <hr>
-              <div class="rectangulo" style="text-align: center;">
-                <div class="align-items-center" style="display: flex; flex-direction: column;">
-                  <p class="textoInteresTalento">Interes1</p>
-                  <p class="textoInteresTalento">Interes2</p>
-                  <p class="textoInteresTalento">Interes3</p>
-                </div>
-              </div>
-            </p>
-          </div>
-        </div>
-        
-
-        <!---------------------------f---------------------------------------->
-<h4 class="titulosFilasTalentos">Formación académica</h4>
-
-        <p><div class="card mi-tarjeta-formacion">
-          <div class="card-body d-flex">
-            <!-- Estructura modificada para la alineación -->
-            <div class="align-self-start">
-              <i class="fas fa-graduation-cap fa-3x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            </div>
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
-              <h6 class="card-title">Institución</h6>
-              <hr>
-              <p class="card-text">habilidades académicas</p>
-              <p>dic 2000 - ene 2001</p>
-            </div>
-          </div>
-        </div>
-        </p>
-
-        <!-- tarjeta 2 FILA 2-->
-        <p><div class="card mi-tarjeta-formacion">
-          <div class="card-body d-flex">
-            <!-- Estructura modificada para la alineación -->
-            <div class="align-self-start">
-              <i class="fas fa-graduation-cap fa-3x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            </div>
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
-              <h6 class="card-title">Institución</h6>
-              <hr>
-              <p class="card-text">habilidades académicas</p>
-              <p>dic 2000 - ene 2001</p>
-            </div>
-          </div>
-        </div>
-        </p>
-          <!---------------------------f---------------------------------------->
-
-        <!-- tarjeta 3 FILA 2 -->
-        
-          <!---------------------------f---------------------------------------->
-
       </div>
     </div>
-    <!-- DATOS DE INTERÉS FILA -->
-    <div class="row-4 fila-naranja2 shadow">
-      <div class="col text-center" id="columT">
-        <!-- Contenido de la tercera columna -->
-        <h4 class="titulosFilasTalentos">Información personal</h4>
-                <!-- tarjeta 1 FILA 3 -->
-        <p><div class="card mi-tarjeta">
-          <div class="card-body d-flex align-items-center">
-            <i class="fas fa-user fa-2x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+    
+    <!-- Repetir el mismo patrón para los otros dos contenedores -->
+    
+    <div class="col-md-4 colmunaF1">
+      <div class="contenedorF1 text-center">
+        <h4 class="titulosFilasTalentos">Me interesa: </h4>
+        <!-- Tarjetas para el segundo contenedor -->
+        <div class="card cardF2">
+          <div class="card-body cardbodyF2item1">
+            <!-- Contenido de la tarjeta 1 -->
+              <p class="card-text cardtextF2item1" style="max-height: 150px; overflow: hidden;">
+                <h6>Areas de interés</h6>
+                <hr>
+                <div class="rectangulo" style="text-align: center;">
+                <div class="align-items-center" style="display: flex; flex-direction: column;">
+                  <button class="boton-tarjeta" style="padding: 5px;  width: 100%; margin: 5px;">Interes1</button>
+                  <button class="boton-tarjeta" style="padding: 5px;  width: 100%; margin: 5px;">Interes2</button>
+                  <button class="boton-tarjeta" style="padding: 5px;  width: 100%; margin: 5px;">Interes3</button>
+              </div>
+              </div>
+               </p>  
+               </div>
+             </div>
+        <h4 class="titulosFilasTalentos">Formación académica</h4>     
+        <div class="card cardF2">
+          <div class="card-body cardbodyF2 d-flex ">
+            <!-- Contenido de la tarjeta 2 -->
+        
             <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+              <i class="fas fa-graduation-cap fa-3x  " style="margin-right:25px; margin-bottom: 20px;" ></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+              <h6 class="card-title">Institución</h6>
+              <hr>
+            </div>
+                <div class="contiene" style="width: 100%;">
+              <p class="card-text" >habilidades académicas</p>
+              <p>dic 2000 - ene 2001</p>
+                </div>
+            
+          </div>
+        </div>
+        <div class="card cardF2">
+          <div class="card-body cardbodyF2 d-flex " >
+            <!-- Contenido de la tarjeta 2 -->
+        
+            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+              <i class="fas fa-graduation-cap fa-3x "style="margin-right:25px; margin-bottom: 20px;"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+              <h6 class="card-title">Institución de las rosas de guadalupe</h6>
+              <hr>
+            </div>
+                <div class="contiene" style="width: 100%;">
+              <p class="card-text" >habilidades académicas</p>
+              <p>dic 2000 - ene 2001</p>
+                </div>
+            
+          </div>
+        </div>
+       </div>
+      </div>
+    
+
+    <div class="col-md-4 colmunaF1">
+      <div class="contenedorF1 text-center">
+        <h4 class="titulosFilasTalentos">Información personal</h4>
+        <!-- Tarjetas para el tercer contenedor -->
+        <div class="card cardF3">
+          <div class="card-body d-flex align-items-center">
+            <i class="fas fa-user fa-2x me-3"style="padding-right: 15px;"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+            <div class="mx-auto2 text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
               <h6 class="card-title">Nombre Talento</h6>
               <p class="card-text">Nombre talento</p>
             </div>
           </div>
-        </div></p>
-<!---------------------------f---------------------------------------->
-           
-                <!-- tarjeta 2 FILA 3 -->
-        <p><div class="card mi-tarjeta">
+        </div>
+        <div class="card cardF3">
           <div class="card-body d-flex align-items-center">
-            <i class="far fa-address-card fa-2x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
-              <h6 class="card-title">Rut</h6>
+            <i class="far fa-address-card fa-2x me-3"style="padding-right: 25px;"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+            <div class="mx-auto2  "> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+              <h6 class="card-title" style="padding-right: 20px;">Rut</h6>
               <p class="card-text">Rut talento</p>
             </div>
           </div>
-        </div></p>
-<!---------------------------f---------------------------------------->
-
-                <!-- tarjeta 3 FILA 3 -->
-        <p><div class="card mi-tarjeta">
+        </div>
+        <div class="card cardF3">
           <div class="card-body d-flex align-items-center">
-            <i class="far fa-calendar fa-2x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+            <i class="far fa-calendar fa-2x me-3"style="padding-right: 15px;"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+            <div class="mx-auto2 text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
               <h6 class="card-title">Fecha de nac</h6>
               <p class="card-text">Fecha de nac</p>
             </div>
           </div>
-        </div>
-        </p>
-        <!---------------------------f---------------------------------------->
-
-                <!-- tarjeta 4 FILA 3 -->
-        <p><div class="card mi-tarjeta">
+         </div>
+         <div class="card cardF3">
           <div class="card-body d-flex align-items-center">
-            <i class="fas fa-user-group fa-2x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+            <i class="fas fa-user-group fa-2x me-3"style="padding-right: 15px;"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+            <div class="mx-auto2 text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
               <h6 class="card-title">Estado Civil</h6>
               <p class="card-text">Estado Civil</p>
             </div>
           </div>
-        </div>
-        </p>
-        <!---------------------------f---------------------------------------->
-
-         <!-- tarjeta 5 FILA 3 -->
-        <p><div class="card mi-tarjeta">
+         </div>
+         <div class="card cardF3">
           <div class="card-body d-flex align-items-center">
-            <i class="far fa-calendar fa-2x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+            <i class="far fa-calendar fa-2x me-3  " style="padding-right: 25px;"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
+            <div class="mx-auto2 text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
               <h6 class="card-title">Edad</h6>
               <p class="card-text">Edad talento</p>
             </div>
           </div>
-        </div>
-        </p>
-          <!---------------------------f---------------------------------------->
-
-           <!-- tarjeta 6 FILA 3 -->
-        <p><div class="card mi-tarjeta">
+         </div>
+         <div class="card cardF3">
           <div class="card-body d-flex align-items-center">
             <i class="fas fa-phone fa-2x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+            <div class="mx-auto2 text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
               <h6 class="card-title">Número contacto</h6>
               <p class="card-text">Número contacto</p>
             </div>
           </div>
-        </div>
-        </p>
-        <!---------------------------f---------------------------------------->
-
-         <!-- tarjeta 7 FILA 3 -->
-        <p><div class="card mi-tarjeta">
+         </div>
+         <div class="card cardF3">
           <div class="card-body d-flex align-items-center">
             <i class="fas fa-envelope fa-2x me-3"></i> <!-- Icono alineado a la izquierda con espacio a la derecha -->
-            <div class="mx-auto text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
+            <div class="mx-auto2 text-center"> <!-- Utilizando mx-auto para centrar el texto y text-center para centrarlo horizontalmente -->
               <h6 class="card-title">Correo electrónico</h6>
               <p class="card-text">Correo electrónico</p>
             </div>
-          </div>
-        </div>
-        </p>
-
-        
-        <!---------------------------f---------------------------------------->
+         </div>
       </div>
     </div>
   </div>
+ </div>
+</div>
+
+    <!---------------------------End--------------------------------------->
+
+  <!------------------------------------Carrusel INICIO---------------------------------------------->   
+<div class="ContenedorCarrusel">
+<h1 class="w3-center" ></h1>
+<div class="carousel kathcarrusel"  data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+  <div class="carousel-cell">
+    <li class="card carruselcard"   >
+      <div class="img imgcarrusel"><img src="images/Hombre_avatar1.png" alt="img" draggable="false"width="60%" ></div>
+      <h2>Blanche Manager</h2>
+      <span>Intereses</span>
+      <button class="boton-tarjeta">Ver Talento</button>
+    </li>
+  </div>
+  <div class="carousel-cell">
+    <li class="card carruselcard">
+      <div class="img imgcarrusel"><img src="images/Hombre_avatar2.png" alt="img" draggable="false"width="60%"></div>
+      <h2>Joenas Brauers</h2>
+      <span>Intereses</span>
+      <button class="boton-tarjeta">Ver Talento</button>
+    </li>
+  </div>
+  <div class="carousel-cell">
+    <li class="card carruselcard">
+      <div class="img imgcarrusel"><img src="images/Hombre_avatar3.png" alt="img" draggable="false"width="60%"></div>
+      <h2>Lariach French</h2>
+      <span>Intereses</span>
+      <button class="boton-tarjeta">Ver Talento</button>
+    </li>
+  </div>
+  <div class="carousel-cell">
+    <li class="card carruselcard">
+      <div class="img imgcarrusel"><img src="images/Hombre_avatar4.png" alt="img" draggable="false"width="60%"></div>
+      <h2>Lariach French</h2>
+      <span>Intereses</span>
+      <button class="boton-tarjeta">Ver Talento</button>
+    </li>
+  </div>
+  <div class="carousel-cell">
+    <li class="card carruselcard">
+      <div class="img imgcarrusel"><img src="images/Hombre_avatar4.png" alt="img" draggable="false"width="60%"></div>
+      <h2>Lariach French</h2>
+      <span>Intereses</span>
+      <button class="boton-tarjeta">Ver Talento</button>
+    </li>
+  </div>
+  <div class="carousel-cell">
+    <li class="card carruselcard">
+      <div class="img imgcarrusel"><img src="images/Hombre_avatar4.png" alt="img" draggable="false"width="60%"></div>
+      <h2>Lariach French</h2>
+      <span>Intereses</span>
+      <button class="boton-tarjeta">Ver Talento</button>
+    </li>
+  </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+ 
 
 
-      
+  <!------------------------------------Carrusel END---------------------------------------------->   
+
+
 
 <footer>
-  <div class="container-fluid"
-    style="background-color: #E5ECF6; margin: 0px; padding-top: 50px; padding-left: 50px; padding-right: 50px;">
-    <div class="row">
-      <div class="col-lg-4 mt-4" style="align-items: center;">
-        <a class="footer-brand" href="https://renca.cl/"><img src="images/logonegro.png" height="70" alt="MDB Logo"
-            loading="lazy" style="margin-top: 30px;" /></a>
+    <div class="container-fluid"
+      style="background-color: #E5ECF6; margin: 0px; padding-top: 50px; padding-left: 50px; padding-right: 50px;">
+      <div class="row">
+        <div class="col-lg-4 mt-4" style="align-items: center;">
+          <a class="footer-brand" href="https://renca.cl/"><img src="images/logonegro.png" height="70" alt="MDB Logo"
+              loading="lazy" style="margin-top: 30px;" /></a>
+        </div>
+        <!--logo aca estamos-->
+        <div class="col-lg-4 mt-4" style="align-items: center;">
+          <a class="logoacaestamos" href="index.html"><img src="images/logo-normal.png" height="70" loading="lazy"
+              style="margin-top: 30px;" /></a>
+        </div>
+        <!--Links de contacto-->
+        <div class="col-lg-4 mt-4" style="text-align: right;">
+          <h5>Contacto</h5>
+          <p>RR.SS. <a href="https://www.instagram.com/muni_renca/" style="color: inherit;"><i
+                class="fa-brands fa-instagram"></i></a></p>
+          <p>contacto@renca.cl <i class="fa-solid fa-envelope"></i></p>
+          <p>+56 9 5383 4639 (chatbot) <i class="fa-solid fa-phone"></i></p>
+        </div>
       </div>
-      <!--logo aca estamos-->
-      <div class="col-lg-4 mt-4" style="align-items: center;">
-        <a class="logoacaestamos" href="index.html"><img src="images/logo-normal.png" height="70" loading="lazy"
-            style="margin-top: 30px;" /></a>
-      </div>
-      <!--Links de contacto-->
-      <div class="col-lg-4 mt-4" style="text-align: right;">
-        <h5>Contacto</h5>
-        <p>RR.SS. <a href="https://www.instagram.com/muni_renca/" style="color: inherit;"><i
-              class="fa-brands fa-instagram"></i></a></p>
-        <p>contacto@renca.cl <i class="fa-solid fa-envelope"></i></p>
-        <p>+56 9 5383 4639 (chatbot) <i class="fa-solid fa-phone"></i></p>
+      <div class="row">
+        <p class="text-center mt-3">Derechos de autor
+          (c) 2024 Acá Estamos. Todos los derechos reservados.</p>
       </div>
     </div>
-    <div class="row">
-      <p class="text-center mt-3">Derechos de autor
-        (c) 2024 Acá Estamos. Todos los derechos reservados.</p>
-    </div>
-  </div>
 </footer>
 
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="javascript/perfilTalentos.js"></script>
+ 
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- JavaScript -->
+<script src="javascript/perfilTalentos.js" defer></script>
 </body>
+
+  
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+
 </html>

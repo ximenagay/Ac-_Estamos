@@ -11,4 +11,3 @@ boton.addEventListener('click', function() {
         boton.innerHTML = 'EN BUSQUEDA ACTIVA: NO <i class="fas fa-caret-down ml-2"></i>';
     }
 });
-
