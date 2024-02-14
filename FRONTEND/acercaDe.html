@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InicioDeSesión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Material Design Bootstrap-->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+    <!--Material Design Bootstrap-->
+    <link rel="stylesheet" href="style.css">
+    <script type="module">// Initialization for ES Users
+        import { Collapse, initMDB } from "https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.es.min.js";
+
+        initMDB({ Collapse });</script>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand me-2" href="#"><img src="images/logo-normal.png" height="48" alt="MDB Logo"
+                        loading="lazy" style="margin-top: -1px;" /></a>
+
+                <!-- Toggle button -->
+                <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ofertas</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+
+                    <div class="d-flex align-items-center">
+                        <button type="button" class="btn btn-link px-3 me-2">Iniciar sesión <i
+                                class="fa-solid fa-right-to-bracket"></i></button>
+                        <button type="button" class="btn btn-success me-3">Unirse <i
+                                class="fa-solid fa-pen-to-square"></i></button>
+                        <a class="navbar-brand me-2" href="https://www.renca.cl"><img src="images/logo-renca.png"
+                                height="48" alt="MDB Logo" loading="lazy" style="margin-top: -1px;" /></a>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+            </div>
+        </nav>
+        <!--Navbar-->
+        <!--Banner de foto-->
+        <div class="banner-container-acerca">
+            <img class="banner-image-acerca d-flex" src="images/mans.png" alt="Banner Photo" loading="lazy">
+            <div class="banner-text-container-acerca">
+                <h1 class="banner-title-main-acerca">Acerca de</h1>
+                <h1 class="banner-title-sub-acerca">Acá estamos</h1>
+            </div>
+        </div>
+    </header>
+    <!--Banner de foto-->
+    <!--Misión-->
+    <main>
+        <div class="container-fluid align-items-center">
+            <div class="row justify-content-center">
+                <div id="texto-mision" class="col-lg-8 text-center">
+                    <h4>Acá estamos!</h4>
+                    <h4>busca aumentar la empleabilidad y la contratación local de Renca, uniendo empresas
+                        presentes en la comuna con personas renquinas en búsqueda laboral activa.</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <!--Misión-->
+        <hr class="hr hr-blurry" />
+        <!--InfoMuni-->
+        <div id="cartasInfo" class="container-fluid" style="margin-top: 45px; margin-bottom: 45px;">
+            <div class="row justify-content-center">
+                <div id="cartainfo1" class="col-lg-5 text-center" style="background-color: #0492d0; border-radius: 20px;">
+                    <h3>Información sobre empleabilidad en Renca</h3>
+                </div>
+                <div id="cartainfo1" class="col-lg-5 text-center" style="background-color: #E5ECF6; border-radius: 20px;">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti magni in aut repellendus
+                        debitis dignissimos reprehenderit obcaecati nesciunt, modi vitae sequi, doloremque ipsam fugiat
+                        minima ratione provident ab ipsum quos.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div id="cartainfo1" class="col-lg-5 text-center" style="background-color: #E5ECF6; border-radius: 20px;">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti magni in aut repellendus
+                        debitis dignissimos reprehenderit obcaecati nesciunt, modi vitae sequi, doloremque ipsam fugiat
+                        minima ratione provident ab ipsum quos.</p>
+                </div>
+                <div id="cartainfo1" class="col-lg-5 text-center" style="background-color: #0492d0; border-radius: 20px;">
+                    <h3>Información sobre empleabilidad en Renca</h3>
+                </div>
+            </div>
+        </div>
+        <!--InfoMuni-->
+        <hr class="hr hr-blurry" />
+        <!--Tarjetas-->
+        <div class="row">
+            <div class="col-lg-12 mb-3" style="padding: 0; margin: 0;">
+                <div class="d-flex flex-wrap flex-lg-row align-items-center justify-content-center overflow-auto"
+                    style="margin: 10px;">
+                    <!--tarjeta1-->
+                    <div class="card mb-2" style="width: 15rem; margin-right: 10px;">
+                        <img src="images/lupaVector.png" class="card-img-top" alt="Company 1 Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Función de la app</h5>
+                            <p class="card-text">Info</p>
+                        </div>
+                    </div>
+                    <!--tarjeta2-->
+                    <div class="card mb-2" style="width: 15rem; margin-right: 10px;">
+                        <img src="images/altavoz.png" class="card-img-top" alt="Company 1 Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Función de la app</h5>
+                            <p class="card-text">Info </p>
+                        </div>
+                    </div>
+                    <!--tarjeta3-->
+                    <div class="card mb-2" style="width: 15rem; margin-right: 10px;">
+                        <img src="images/cvVectorHombre.png" class="card-img-top" alt="Company 1 Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Función de la app</h5>
+                            <p class="card-text">Info</p>
+                        </div>
+                    </div>
+                    <!--tarjeta4-->
+                    <div class="card mb-2" style="width: 15rem; margin-right: 10px;">
+                        <img src="images/vinoculares.png" class="card-img-top" alt="Company 1 Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Función de la app</h5>
+                            <p class="card-text">Info</p>
+                        </div>
+                    </div>
+                    <!--Tarjetas-->
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid"
+            style="background-color: #E5ECF6; margin: 0px; padding-top: 50px; padding-left: 50px; padding-right: 50px;">
+            <div class="row">
+                <div class="col-lg-4 mt-4" style="align-items: center;">
+                    <a class="footer-brand" href="https://renca.cl/"><img src="images/logonegro.png" height="70"
+                            alt="MDB Logo" loading="lazy" style="margin-top: 30px;" /></a>
+                </div>
+                <!--logo aca estamos-->
+                <div class="col-lg-4 mt-4" style="align-items: center;">
+                    <a class="logoacaestamos" href="index.html"><img src="images/logo-normal.png" height="70"
+                            loading="lazy" style="margin-top: 30px;" /></a>
+                </div>
+                <!--Links de contacto-->
+                <div class="col-lg-4 mt-4" style="text-align: right;">
+                    <h5>Contacto</h5>
+                    <p>RR.SS. <a href="https://www.instagram.com/muni_renca/" style="color: inherit;"><i
+                                class="fa-brands fa-instagram"></i></a></p>
+                    <p>contacto@renca.cl <i class="fa-solid fa-envelope"></i></p>
+                    <p>+56 9 5383 4639 (chatbot) <i class="fa-solid fa-phone"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="text-center mt-3">Derechos de autor
+                    (c) 2024 Acá Estamos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
