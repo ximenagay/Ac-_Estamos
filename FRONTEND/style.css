@@ -227,14 +227,14 @@ margin-bottom: 30px;
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 
 }
 
 .banner-title-main-acerca {
-  font-size: 5vw;
+  font-size: 4vw;
   margin: 0;
   color: white;
 }
@@ -276,7 +276,7 @@ border-radius: 20px;
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
