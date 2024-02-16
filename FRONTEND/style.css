@@ -166,7 +166,7 @@ ul li a {
   cursor: pointer;
 }
 .selected-avatar {
-  border: 3px solid #007bff;
+  border: 3px solid #E5ECF6;
 }
 #bannerTalent {
   width: 100%;
@@ -177,21 +177,22 @@ ul li a {
   margin-bottom: 80px;
 }
 #formulario {
-  background-color: #0492d0;
+  background-color: #E5ECF6;
   margin-left: 290px;
   margin-right: 290px;
   margin-bottom: 50px;
+  margin-top: 50px;
   padding: 40px;
   border-radius: 20px;
 }
 #infoPersonal {
- color: white;
 margin-bottom: 30px;
+color:#424242;
 }
 #textInteres {
   margin-bottom: 30px;
   margin-top: 15px;
-  color: white;
+  color:#424242;
 }
 /*PANCHO*/
 
