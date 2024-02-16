@@ -223,19 +223,18 @@ margin-bottom: 30px;
 }
 
 .banner-text-container-acerca {
-  background-color: rgba(255, 255, 255, 0.4);
   padding: 20px;
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   text-align: center;
 
 }
 
 .banner-title-main-acerca {
-  font-size: 4vw;
+  font-size: 5vw;
   margin: 0;
   color: white;
 }
@@ -273,17 +272,16 @@ border-radius: 20px;
 }
 
 .banner-text-container-empresa {
-  background-color: rgba(255, 255, 255, 0.4);
   padding: 20px;
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 .banner-title-main-empresa {
-  font-size: 4vw;
+  font-size: 5vw;
   margin: 0;
   color: white;
 }
