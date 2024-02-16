@@ -45,7 +45,7 @@
                         <a class="nav-link" href="#">Empresas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ofertas</a>
+                        <a class="nav-link" href="#">Talentos</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -62,30 +62,68 @@
             <!-- Collapsible wrapper -->
         </div>
         <!-- Container wrapper -->
-        </div>
     </nav>
-    <!--Navbar-->
-    <!--Banner de color-->
-    <div class="BannerDeColor d-flex justify-content-center align-items-center">
-        <div class="container">
-            <div class="row justify-content-center">
-                <h1 class="text-center">ENRÓLATE COMO TALENTO</h1>
-            </div>
+    <!-- Navbar -->
+
+    <!--BANNER-->
+    <div class="container-fluid">
+        <div id="bannerTalent">
+            <img src="images/bannerTalent.png" class="img-fluid" alt="banner">
         </div>
     </div>
-    <!--Banner de color-->
+    <!--BANNER-->
+
     <!--AVATAR-->
     <div class="container">
         <h4 id="seleccionaAvatar">Selecciona tu Avatar:</h4>
         <div class="row">
-            <div class="col-md-4">
-                <img src="images/avatar1.png" alt="Avatar 1" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar1.png" alt="Avatar 1" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
             </div>
-            <div class="col-md-4">
-                <img src="images/avatar2.png" alt="Avatar 2" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar2.png" alt="Avatar 2" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
             </div>
-            <div class="col-md-4">
-                <img src="images/avatar3.png" alt="Avatar 3" class="avatar-option img-fluid text-center" onclick="selectAvatar(this)">
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar3.png" alt="Avatar 3" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar4.png" alt="Avatar 4" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar5.png" alt="Avatar 5" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Hombre_avatar6.png" alt="Avatar 6" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar1.png" alt="Avatar 7" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar2.png" alt="Avatar 8" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar3.png" alt="Avatar 9" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar4.png" alt="Avatar 10" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar5.png" alt="Avatar 11" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
+            </div>
+            <div class="col-md-2">
+                <img src="images/Mujer_avatar6.png" alt="Avatar 12" class="avatar-option img-fluid text-center"
+                    onclick="selectAvatar(this)">
             </div>
         </div>
         <h5>Avatar Seleccionado:</h5>
@@ -96,17 +134,16 @@
         </div>
     </div>
     <!--AVATAR-->
+
     <!--FORM-->
     <div class="container-fluid">
-        <div class="row" id="infoPersonal">
-            <div class="col-12">
-                <h4 class="mb-4 text-center">Información personal</h4>
-            </div>
-        </div>
         <div class="row shadow" id="formulario">
+            <div class="col-12">
+                <h3 class="text-center" id="infoPersonal">Información personal</h3>
+            </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
-                    <input class="form-control" type="text" id="nombres" placeholder="francisco">
+                    <input class="form-control" type="text" id="nombres" placeholder="a" name="nombres">
                     <label class="form-label" for="nombres">
                         <p>Nombres</p>
                     </label>
@@ -114,7 +151,7 @@
             </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
-                    <input class="form-control" type="text" id="apellidos" placeholder="salvo">
+                    <input class="form-control" type="text" id="apellidos" placeholder="a" name="apellidos">
                     <label class="form-label" for="apellidos">
                         <p>Apellidos</p>
                     </label>
@@ -123,7 +160,7 @@
             <div class="col-6 mb-3">
                 <div class="form-floating">
                     <input class="form-control" type="text" pattern="\d{1,2}\.\d{3}\.\d{3}-[\dkK]" id="rut"
-                        placeholder="45.234.432-6">
+                        placeholder="a" name="rut">
                     <label class="form-label" for="rut">
                         <p>Rut</p>
                     </label>
@@ -131,12 +168,12 @@
             </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Soltero/a</option>
-                        <option value="1">Casado/a</option>
-                        <option value="2">Viudo/a</option>
-                        <option value="3">Separado/a</option>
-                        <option value="4">Divorciado/a</option>
+                    <select class="form-select" aria-label="Default select example" id="estadoCivil" name="estadoCivil">
+                        <option value="soltero/a"selected>Soltero/a</option>
+                        <option value="casado/a">Casado/a</option>
+                        <option value="viudo/a">Viudo/a</option>
+                        <option value="separado/a">Separado/a</option>
+                        <option value="divorciado/a">Divorciado/a</option>
                     </select>
                     <label class="form-label" for="estadoCivil">
                         <p>Estado civil</p>
@@ -145,15 +182,15 @@
             </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
-                    <input class="form-control" type="date" id="nacimiento" placeholder="43">
-                    <label class="form-label" for="nacimiento">
+                    <input class="form-control" type="date" id="fechaNacimiento" placeholder="a" name="fechaNacimiento">
+                    <label class="form-label" for="fechaNacimiento">
                         <p>Fecha de nacimiento</p>
                     </label>
                 </div>
             </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
-                    <input class="form-control" type="text" id="edad" placeholder="43">
+                    <input class="form-control" type="number" id="edad" placeholder="4" name="edad" min="1" max="100">
                     <label class="form-label" for="edad">
                         <p>Edad</p>
                     </label>
@@ -161,7 +198,7 @@
             </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
-                    <input class="form-control" type="tel" id="numeroContacto" placeholder="+56947294628">
+                    <input class="form-control" type="tel" id="numeroContacto" placeholder="4" name="numeroContacto">
                     <label class="form-label" for="numeroContacto">
                         <p>Número de contacto</p>
                     </label>
@@ -169,7 +206,7 @@
             </div>
             <div class="col-6 mb-3">
                 <div class="form-floating">
-                    <input class="form-control" type="email" id="email" placeholder="Correo electrónico">
+                    <input class="form-control" type="email" id="email" placeholder="a" name="email">
                     <label class="form-label" for="email">
                         <P>Correo electrónico</P>
                     </label>
@@ -177,15 +214,15 @@
             </div>
             <div class="col-12 mb-3">
                 <div class="form-floating">
-                    <input class="form-control" type="text" id="profesion" placeholder="obrero">
+                    <input class="form-control" type="text" id="profesion" placeholder="o" name="profesion">
                     <label class="form-label" for="profesion">
                         <p>Ingresa tu profesión u oficio</p>
                     </label>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" id="textInteres">
-                    <h4 class="text-center">Elige tu área de interés</h4>
+                <div class="col-12">
+                    <h3 class="text-center" id="textInteres">Elige tu área de interés</h3>
                 </div>
                 <div class="col-12">
                     <select class="form-select form-select-lg mb-3" aria-label="Large select example">
@@ -212,10 +249,11 @@
                     </select>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!--FORM-->
+
     <!--CARDS-->
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-md-3 g-4" id="cardsPancho">
@@ -229,7 +267,11 @@
                             certificación.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="button" class="btn btn-primary" style="background-color: #f69906;">Subir</button>
+                        <div class="form-floating">
+                            <input class="form-control" type="file" id="certificadoEstudio" name="certificadoEstudio">
+                            <label class="form-label" for="certificadoEstudio">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -244,7 +286,11 @@
                             actualizado.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="button" class="btn btn-primary" style="background-color: #f69906;">Subir</button>
+                        <div class="form-floating">
+                            <input class="form-control" type="file" id="certificadoAntecedente" name="certificadoAntecedente">
+                            <label class="form-label" for="certificadoAntecedente">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -258,13 +304,18 @@
                             WORD.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="button" class="btn btn-primary" style="background-color: #f69906;">Subir</button>
+                        <div class="form-floating">
+                            <input class="form-control" type="file" id="curriculum" name="curriculum">
+                            <label class="form-label" for="curriculum">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!--CARDS-->
+
     <!--Footer-->
     <footer>
         <div class="container-fluid"
