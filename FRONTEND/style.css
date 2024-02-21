@@ -412,12 +412,7 @@ border-radius: 20px;
   background-size: cover;
   
 }
-body.PerfilTalentos{
-  
 
-  justify-content: center;
-  align-items:center;
-}
 
 @media screen and (max-width: 600px) {
   .text-white{
