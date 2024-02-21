@@ -412,12 +412,7 @@ border-radius: 20px;
   background-size: cover;
   
 }
-body.PerfilTalentos{
-  
 
-  justify-content: center;
-  align-items:center;
-}
 
 @media screen and (max-width: 600px) {
   .text-white{
@@ -607,7 +602,7 @@ margin-top: 0%;
   background-size: 90px;
   background-position: center;
   margin-bottom: 0%;
-  background-image: url('images/BannerPrincipalTalento1.png');
+  background-image: url('images/BannerTablero.png');
   background-size: cover;
   
 }
@@ -615,7 +610,7 @@ margin-top: 0%;
 
 /*Boton container FILTRO*/
 .botonFiltro{
-margin-top: 4%;
+margin-top: 3%;
 margin-bottom: 2%;
 }
 
